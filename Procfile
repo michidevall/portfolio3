@@ -1,3 +1,3 @@
-web: npm start
-web: gunicorn api.wsgi --log-file -
+web: node index.js
+
 ```
