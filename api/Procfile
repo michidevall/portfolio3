@@ -1,5 +1,5 @@
 
 web: gunicorn api.wsgi --log-file -
-web: node App.js
+web: node index.js
 
 ```
