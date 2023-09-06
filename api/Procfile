@@ -1,5 +1,5 @@
 
 web: gunicorn api.wsgi --log-file -
-web: node ./src/index.js
+web: npm start
 
 ```
